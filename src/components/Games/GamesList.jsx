@@ -7,7 +7,6 @@ function GamesList() {
   const initGame = [
     {
       id: 3498,
-      slug: 'grand-theft-auto-v',
       name: 'Grand Theft Auto V',
       released: '2013-09-17',
       background_image:

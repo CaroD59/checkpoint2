@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const HeaderCSS = styled.header`
   /* text-align: center; */
   font-size: 1.2em;
-  height: 200px;
+  height: 130px;
   background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
   font-family: 'Arial';
 
@@ -17,6 +17,7 @@ const HeaderCSS = styled.header`
     flex-direction: row;
     justify-content: space-around;
     padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
     font-weight: bold;
   }
@@ -39,7 +40,8 @@ const HeaderCSS = styled.header`
 
   .Hello {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    margin: auto;
   }
 `;
 

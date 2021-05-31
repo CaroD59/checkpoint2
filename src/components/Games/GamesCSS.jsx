@@ -19,9 +19,29 @@ const GamesCSS = styled.div`
   button:active {
     transform: translateY(4px);
   }
-  img {
+  .pic {
     width: 450px;
     height: 350px;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+
+  .pic:hover {
+    opacity: 0.7;
+  }
+
+  .Games {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .Details p {
+    text-align: center;
+  }
+  .bin {
+    width: 35px;
+    height: 35px;
   }
 `;
 
